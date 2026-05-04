@@ -6,10 +6,10 @@ markdown
 ---
 
 ## 📁 完整文件结构及功能说明
-项目根目录/
-│
-├── .edgeone/ # EdgeOne Pages 配置目录
-│ └── functions.json # 路由配置文件，将所有 URL 路径映射到对应的云函数
+  项目根目录/
+  │
+  ├── .edgeone/ # EdgeOne Pages 配置目录
+  │ └── functions.json # 路由配置文件，将所有 URL 路径映射到对应的云函数
 │
 ├── functions/ # 云函数目录（所有后端逻辑）
 │ │
