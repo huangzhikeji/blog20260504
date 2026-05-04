@@ -1,15 +1,46 @@
-markdown
 # 综合网站 · EdgeOne Pages 完整版
 
 基于腾讯云 EdgeOne Pages 构建的全栈个人网站，支持书签导航和博客管理。所有数据存储在 EdgeOne KV 中，无需数据库。
 
+项目根目录/
+├── .edgeone/
+│   └── functions.json
+├── functions/
+│   ├── [[catchall]].js
+│   ├── _middleware.js
+│   ├── admin.js
+│   ├── index.js
+│   ├── logout.js
+│   ├── post/
+│   │   └── [[slug]].js
+│   └── api/
+│       ├── blog.js
+│       ├── blog/
+│       │   └── [[id]].js
+│       ├── config.js
+│       ├── config/
+│       │   └── [id].js
+│       ├── change-password.js
+│       ├── header-bg.js
+│       ├── image/
+│       │   └── [filename].js
+│       ├── logo.js
+│       ├── logo-link.js
+│       ├── search.js
+│       ├── site-info.js
+│       ├── sitemap.js
+│       ├── stats.js
+│       └── upload.js
+├── _routes.json
+└── README.md
+
 ---
 
 ## 📁 完整文件结构及功能说明
-  项目根目录/
-  │
-  ├── .edgeone/ # EdgeOne Pages 配置目录
-  │ └── functions.json # 路由配置文件，将所有 URL 路径映射到对应的云函数
+项目根目录/
+│
+├── .edgeone/ # EdgeOne Pages 配置目录
+│ └── functions.json # 路由配置文件，将所有 URL 路径映射到对应的云函数
 │
 ├── functions/ # 云函数目录（所有后端逻辑）
 │ │
